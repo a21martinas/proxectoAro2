@@ -17,8 +17,15 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class AroTest {
     
+    /**
+     *
+     */
     public AroTest() {
     }
+
+    /**
+     *
+     */
     @Test
     public void testObterDiametro() {
         System.out.println("obterDiametro");
@@ -27,6 +34,9 @@ public class AroTest {
         assertEquals(0.2, result,0);
     }
 
+    /**
+     *
+     */
     @Test
     public void testObterCircunferencia() {
         System.out.println("obterCircunferencia");
@@ -36,6 +46,9 @@ public class AroTest {
         assertEquals(expResult, result,1e-6);
     }
 
+    /**
+     *
+     */
     @Test
     public void testObterSuperficie() {
         System.out.println("obterArea");
@@ -45,6 +58,9 @@ public class AroTest {
         assertEquals(expResult, result,1e-6);
     }
 
+    /**
+     *
+     */
     @Test
     public void testTrasladarCentro() {
         System.out.println("trasladarCentro");
